@@ -69,26 +69,25 @@
     min-width: 260px;
     position: relative;
 }
-
-.iconTask{
-    position: absolute;
-    top: 120px;
-    left: 310px;
-    width: 20px;
-    height: 27px;
+.task.ready {
+    background-color: #ffffff;
+    color: #222222;
+    text-decoration: line-through;
 }
 
-.ready{
-    background-color: rgb(255, 255, 255);
-    color: #222222;
-    font-size: 16px;
-    border-radius: 5px;
-    margin: 12px;
-    box-shadow: 0 0 10px 0 #4f4f4f;
-    padding: 24px;
-    max-width: 260px;
-    min-width: 260px;
-    text-decoration-line: line-through;
+.editIcon{
+    position: absolute;
+    background: url(/images/pen-line-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.ready > .iconTask {
+    fill: #ffffff;
 }
 
 .createContainer{
