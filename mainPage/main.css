@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Header{
+    font-size: 18px;
+    min-width: 450px;
+    box-shadow: 0 0 5px 0 rgb(86, 86, 86);
+    background-color: #f1f1f1;
+}
+
+.userSpace{
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#logOut{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    height: 60px;
+    margin: 16px;
+    align-items: center;
+}
+
+.logOutBotton{
+    text-decoration: none;
+    font-weight: bold   ;
+    color: rgb(190, 18, 18);
+}
+
+.userSpace p{
+    font-weight: bold;
+}
+
+#userAvatar{
+    margin: 16px;
+    border-radius: 9999999px;
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.NoTaskImg{
+    margin-top: 40px;
+    width: 450px;
+    height: auto;
+}
+
+h2{
+    color: #434343;
+}
+
+.createContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px;
+}
+
+.createTask{
+    height: 64px;
+    width: 64px;
+}
