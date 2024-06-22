@@ -51,31 +51,56 @@
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 25%;
+    max-height: 650px;
+    margin: 16px;
 }
 
-.NoTaskImg{
-    margin-top: 40px;
-    width: 450px;
-    height: auto;
+.task{
+    background-color: #7348ff;
+    color: #f1f1f1;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 12px;
+    box-shadow: 0 0 10px 0 #4f4f4f;
+    padding: 24px;
+    max-width: 260px;
+    min-width: 260px;
+    position: relative;
 }
 
-h2{
-    color: #434343;
+.iconTask{
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    width: 20px;
+    height: 27px;
+}
+
+.ready{
+    background-color: rgb(255, 255, 255);
+    color: #222222;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 12px;
+    box-shadow: 0 0 10px 0 #4f4f4f;
+    padding: 24px;
+    max-width: 260px;
+    min-width: 260px;
+    text-decoration-line: line-through;
 }
 
 .createContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
     margin: 64px;
 }
 
 .createTask{
     height: 64px;
     width: 64px;
-    background-color: #a184ff;
     border-radius: 999999px;
+    background-color: #7348ff;
 }
