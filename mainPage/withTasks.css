@@ -30,9 +30,15 @@
 }
 
 .logOutBotton{
+    color: #222222;
     text-decoration: none;
-    font-weight: bold   ;
+    font-weight: bold;
+    transition: 0.05s;
+}
+
+.logOutBotton:hover{
     color: rgb(190, 18, 18);
+    scale: 1.05;
 }
 
 .userSpace p{
@@ -46,6 +52,12 @@
     width: 50px;
     background-color: aliceblue;
     border: 2px solid black;
+    transition: 0.05s;
+}
+
+#userAvatar:hover{
+    scale: 1.05;
+    box-shadow: 0 0 8px  #222222;
 }
 
 .content{
@@ -63,15 +75,22 @@
     font-size: 16px;
     border-radius: 5px;
     margin: 12px;
-    box-shadow: 0 0 10px 0 #4f4f4f;
+    box-shadow: 0 0 4px 0 #4f4f4f;
     padding: 24px;
     max-width: 260px;
     min-width: 260px;
     position: relative;
+    transition: 0.05s;
 }
 
-.task.notready .editIcon{
-    filter: invert(100%) sepia(15%) saturate(2%) hue-rotate(40deg) brightness(103%) contrast(100%);
+.task:hover{
+    scale: 1.005;
+    box-shadow: 0 0 8px 0 #4f4f4f;
+}
+
+.task.notReady .editIcon{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(315deg) brightness(108%) contrast(101%);
+    
 }
 
 .task.ready {
