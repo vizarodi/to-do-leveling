@@ -4,10 +4,12 @@
     font-family: sans-serif;
 }
 
+
+
 .Header{
     font-size: 18px;
     min-width: 450px;
-    box-shadow: 0 0 5px 0 rgb(86, 86, 86);
+    box-shadow: 0 0 5px 0 #565656;
     background-color: #f1f1f1;
 }
 
