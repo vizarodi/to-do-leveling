@@ -76,6 +76,12 @@ h2{
 .createTask{
     height: 64px;
     width: 64px;
-    background-color: #a184ff;
     border-radius: 999999px;
+    background-color: #7348ff;
+    transition: 0.05s;
+}
+
+.createTask:hover{
+    scale: 1.05;
+    box-shadow: 0 0 8px 0 #4f4f4f;
 }

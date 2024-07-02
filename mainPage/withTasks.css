@@ -111,7 +111,7 @@
     position: absolute;
     bottom: 16px;
     right: 16px;
-    margin: 64px;
+    margin: 16px;
 }
 
 .createTask{
@@ -119,4 +119,10 @@
     width: 64px;
     border-radius: 999999px;
     background-color: #7348ff;
+    transition: 0.05s;
+}
+
+.createTask:hover{
+    scale: 1.05;
+    box-shadow: 0 0 8px 0 #4f4f4f;
 }
